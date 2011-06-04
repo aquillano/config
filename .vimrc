@@ -34,7 +34,7 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
+"not compatible with vim: set relativenumber
 
 "change <leader> from '\' to ','
 let mapleader = ","
@@ -56,7 +56,7 @@ vnoremap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
+"not compatible with vim: set colorcolumn=85
 
 "TextMate-like hidden characters; May need to change colors so not distracting
 "set list
