@@ -4,7 +4,7 @@ set guifont=Menlo:h12
 
 "pathogen settings
 filetype off
-"call pathogen#runtime_append_all_bundles()
+call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
 "no need to be vi compatible
