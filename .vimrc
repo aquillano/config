@@ -1,6 +1,12 @@
-colorscheme ir_black
+"colorscheme ir_black
+"set guifont=Menlo:h12
+colorscheme zenburn
+let g:zenburn_force_dark_Background=1
+let g:zenburn_high_Contrast = 1
 syntax on
-set guifont=Menlo:h12
+set t_Co=256
+set background=dark
+set guifont=Inconsolata:h16
 
 "pathogen settings
 filetype off
