@@ -1,12 +1,18 @@
-"colorscheme ir_black
-"set guifont=Menlo:h12
-colorscheme zenburn
-let g:zenburn_force_dark_Background=1
-let g:zenburn_high_Contrast = 1
-syntax on
+" IMPORTANT: Uncomment one of the following lines to force
+" " using 256 colors (or 88 colors) if your terminal supports it,
+" " but does not automatically use 256 colors by default.
 set t_Co=256
-set background=dark
+" "set t_Co=88
+let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+colorscheme ir_black
+"set guifont=Menlo:h12
 set guifont=Inconsolata:h16
+"colorscheme zenburn
+"let g:zenburn_force_dark_Background=1
+"let g:zenburn_high_Contrast = 1
+"set t_Co=256
+"set background=dark
+syntax on
 
 "pathogen settings
 filetype off
@@ -91,3 +97,5 @@ nnoremap ; :
 
 "quicker Esc
 inoremap jj <ESC>
+
+set number
