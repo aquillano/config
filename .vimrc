@@ -98,4 +98,4 @@ nnoremap ; :
 "quicker Esc
 inoremap jj <ESC>
 
-set number
+set relativenumber
